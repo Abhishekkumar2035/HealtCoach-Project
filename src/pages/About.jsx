@@ -3,9 +3,7 @@ import { Helmet } from "react-helmet-async";
 import {
   FaCheck,
   FaUsers,
-  FaAward,
   FaHeartbeat,
-  FaShieldAlt,
   FaHandsHelping,
   FaGlobe,
   FaUserMd,
@@ -16,12 +14,7 @@ import {
   FaSeedling,
   FaBalanceScale,
 } from "react-icons/fa";
-import {
-  GiMuscleUp,
-  GiHeartPlus,
-  GiHealthPotion,
-  GiStethoscope,
-} from "react-icons/gi";
+import { GiHealthPotion, GiStethoscope } from "react-icons/gi";
 
 const About = () => {
   return (

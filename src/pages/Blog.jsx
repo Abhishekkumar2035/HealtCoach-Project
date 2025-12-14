@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+// src/pages/Blog.jsx
+import React, { useState } from "react"; // useEffect hata diya hai
 
 const Blog = () => {
   const [activeCategory, setActiveCategory] = useState("all");

@@ -1,9 +1,10 @@
+// src/pages/BlogSingle.jsx
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // useParams hata diya kyunki use nahi ho raha tha
 
 const BlogSingle = () => {
-  const { id } = useParams();
+  // const { id } = useParams(); // Ye unused tha, isliye hata diya
 
   return (
     <>
@@ -21,14 +22,14 @@ const BlogSingle = () => {
             <div className="col-md-9 ftco-animate pb-5">
               <p className="breadcrumbs mb-2">
                 <span className="mr-2">
-                  <a href="/">
+                  <Link to="/">
                     Home <i className="ion-ios-arrow-forward"></i>
-                  </a>
+                  </Link>
                 </span>
                 <span className="mr-2">
-                  <a href="/blog">
+                  <Link to="/blog">
                     Blog <i className="ion-ios-arrow-forward"></i>
-                  </a>
+                  </Link>
                 </span>
                 <span>
                   Blog Single <i className="ion-ios-arrow-forward"></i>
@@ -70,25 +71,29 @@ const BlogSingle = () => {
 
               <div className="tag-widget post-tag-container mb-5 mt-5">
                 <div className="tagcloud">
-                  <a href="#" className="tag-cloud-link">
+                  <Link to="/about" className="tag-cloud-link">
                     Life
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     Sport
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     Tech
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     Travel
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-4 sidebar pl-lg-5 ftco-animate">
               <div className="sidebar-box">
-                <form action="#" className="search-form">
+                {/* action="#" hata kar preventDefault lagaya hai */}
+                <form
+                  onSubmit={(e) => e.preventDefault()}
+                  className="search-form"
+                >
                   <div className="form-group">
                     <span className="fa fa-search"></span>
                     <input
@@ -103,30 +108,30 @@ const BlogSingle = () => {
               <div className="sidebar-box ftco-animate">
                 <h3>Tag Cloud</h3>
                 <div className="tagcloud">
-                  <a href="#" className="tag-cloud-link">
+                  <Link to="/about" className="tag-cloud-link">
                     food
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     life
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     coach
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     healthy
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     lifestyle
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     green
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     exercise
-                  </a>
-                  <a href="#" className="tag-cloud-link">
+                  </Link>
+                  <Link to="/about" className="tag-cloud-link">
                     dietitian
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
