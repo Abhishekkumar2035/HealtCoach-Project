@@ -179,7 +179,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-lg-4 text-md-right">
             <p className="mb-0 list-unstyled">
-              <a className="mr-md-3" href="#">
+              <a className="mr-md-3" href="/about">
                 Terms
               </a>
               <a className="mr-md-3" href="/about">

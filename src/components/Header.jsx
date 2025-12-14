@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <Helmet>
         <title>Health Coach - Professional Health & Wellness</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -39,32 +39,40 @@ const Header = () => {
               <div className="social-media">
                 <p className="mb-0 d-flex">
                   <a
-                    href="#"
+                    href="https://www.facebook.com"
                     className="d-flex align-items-center justify-content-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="fa fa-facebook">
                       <i className="sr-only">Facebook</i>
                     </span>
                   </a>
                   <a
-                    href="#"
+                    href="https://twitter.com"
                     className="d-flex align-items-center justify-content-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="fa fa-twitter">
                       <i className="sr-only">Twitter</i>
                     </span>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com"
                     className="d-flex align-items-center justify-content-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="fa fa-instagram">
                       <i className="sr-only">Instagram</i>
                     </span>
                   </a>
                   <a
-                    href="#"
+                    href="https://dribbble.com"
                     className="d-flex align-items-center justify-content-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="fa fa-dribbble">
                       <i className="sr-only">Dribbble</i>
