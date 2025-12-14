@@ -103,22 +103,22 @@ const Footer = () => {
                 <h2 className="footer-heading">Resources</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Security
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Global
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Charts
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Privacy
                     </a>
                   </li>
@@ -128,22 +128,22 @@ const Footer = () => {
                 <h2 className="footer-heading">Social</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Facebook
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Twitter
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Instagram
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="py-1 d-block">
+                    <a href="/about" className="py-1 d-block">
                       Google
                     </a>
                   </li>
@@ -182,10 +182,10 @@ const Footer = () => {
               <a className="mr-md-3" href="#">
                 Terms
               </a>
-              <a className="mr-md-3" href="#">
+              <a className="mr-md-3" href="/about">
                 Privacy
               </a>
-              <a className="mr-md-3" href="#">
+              <a className="mr-md-3" href="/about">
                 Compliances
               </a>
             </p>
